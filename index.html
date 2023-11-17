@@ -1,0 +1,74 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CS FA1</title>
+		
+		<meta charset="UTF-8">
+		<meta name="description" content="Comsci Second Quarter FA1">
+		<meta name="keywords" content="Comsci, Second, FA1">
+		<meta name="author" content="Rael John P. Andao">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<a href="#div1" id="link1">First link</a><br>
+		<div id="div1">Div 1 here</div><br>
+		
+		<a href="#div2" id="link2">Second Link</a><br>
+		<div id="div2">Div 2 here</div><br>
+	</body>
+	<style>
+		a{
+		text-decoration: none;
+		}
+		a#link1:link{
+		color: maroon;
+		background-color: cyan;
+		text-decoration: none;
+		}
+		a#link2:link{
+		color: blue;
+		background-color: red;
+		text-decoration: none;
+		}
+		a#link1:visited{
+		color: #99fff8;
+		background-color: gray;
+		}
+		a#link1:hover{
+		color: #dd00ff;
+		background-color: #5ad16a;
+		}
+		a#link1:active{
+		color: black;
+		background-color: orange;
+		}
+		a#link2:visited{
+		color: #213624;
+		background-color: #083252;
+		}
+		a#link2:hover{
+		color: #25264d;
+		background-color: #0d96ff;
+		}
+		a#link2:active{
+		color: black;
+		background-color: #c9eb34;
+		}
+		div{
+		margin: 5px;
+		padding: 10px;
+		}
+		div{
+		border: 1px solid;
+		}
+		div#div1:target{
+		color: green;
+		background-color: beige;
+		}
+		div#div2:target{
+		border: 10px dotted green;
+		color: yellow;
+		background-color: pink;
+		}
+	</style>
+</html>
